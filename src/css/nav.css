@@ -27,6 +27,7 @@ nav li {
     margin-top: 0px;
     height: 1.5em;
     text-align: center;
+    transition: .8s;
 }
 
 nav li#logo {
@@ -37,6 +38,7 @@ nav li#logo {
 nav #account {
     float: right;
     padding-right: 30px;
+    cursor: pointer;
     clear: right;
 }
 
@@ -45,11 +47,13 @@ nav #account {
 }
 
 #account:hover #dropdown {
+    margin-top: 10px;
     position: absolute;
     display: block;
     margin-right: 0px;
     z-index: 1000;
     float: right;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
 nav ul#dropdown {
@@ -60,17 +64,19 @@ nav ul#dropdown {
 
 nav ul#dropdown li {
     border-radius: 10px;
-    border: 1px grey solid;
     display: block;
     color: black;
     background-color: white;
     float: none;
     text-align: left;
-    font-size: 12px;
+    font-size: 16px;
+    transition: .8s;
 }
 
 nav ul#dropdown li:hover {
-    background-color: rgb(99, 126, 243);
+    background-color: rgba(125, 147, 243, 0.342);
+    border: 1px grey solid;
+    font-weight: bolder;
     color: white;
 }
 
