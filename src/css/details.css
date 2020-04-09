@@ -1,0 +1,114 @@
+@font-face {
+    font-family: myfont;
+    src: url('../font/5.ttf');
+}
+
+#main {
+    margin: 30px;
+    border-radius: 3px;
+    border: 1px #DADADB solid;
+}
+
+#title {
+    text-indent: 2ex;
+    margin-left: -1px;
+    margin-top: -1px;
+    width: 100%;
+    background: #F5F4F9;
+    border: 1px #DADADA solid;
+    border-radius: 3px;
+    color: #7D868A;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h2 {
+    line-height: 60px;
+    font-size: 50px;
+    font-family: myfont;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2 span {
+    font-family: myfont;
+    font-size: 24px;
+}
+
+#info {
+    width: 80%;
+    margin: 0 auto;
+    height: 35vw;
+}
+
+.half {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.half img {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#like_number {
+    color: #C93F3B;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.detail {
+    text-indent: 2ex;
+    color: #010103;
+    line-height: 30px;
+    border: 1px #D7D7D9 solid;
+    border-radius: 3px;
+    width: 100%;
+    margin-left: -1px;
+    border-top: 0px;
+}
+
+.detail_last {
+    text-indent: 2ex;
+    color: #010103;
+    line-height: 30px;
+    border: 1px #D7D7D9 solid;
+    border-radius: 3px;
+    width: 100%;
+    margin-left: -1px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#collect_img {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#collect {
+    margin: 0 auto;
+    background-color: #D2392B;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 1px #BA4337 solid;
+    border-radius: 3px;
+    width: 70%;
+    height: 40px;
+}
+
+#text {
+    margin: auto;
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+    width: 70%;
+    display: block;
+}

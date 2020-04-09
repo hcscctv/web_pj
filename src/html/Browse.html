@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/Browse.css">
+    <script src="../js/disabled_change.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul id="nav">
+            <li id="logo">
+                <a href="./HomePage.html"><img src="../images/logo_nav.png"></a>
+            </li>
+            <li><a href="./HomePage.html">Home</a></li>
+            <li class="this"><a href="./Browse.html">Browse</a></li>
+            <li><a href="./Search.html">Search</a></li>
+            <li id="account">My&nbsp; Account&nbsp;
+                <br>
+                <ul id=dropdown>
+                    <li>
+                        <a href="Upload.html"><img src="../images/upload.png" alt="">Upload</a>
+                    </li>
+                    <li>
+                        <a href="my_photo.html"><img src="../images/photo.png" alt="">My photo</a>
+                    </li>
+                    <li>
+                        <a href="favor.html"><img src="../images/favourite.png" alt="">My favorite</a>
+                    </li>
+                    <li>
+                        <a href="../../index.html"><img src="../images/login.png" alt="">Log in</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="left">
+        <div class="main">
+            <div class="title">Search by title</div>
+            <table id="filter">
+                <tr>
+                    <td id="filter_input"><input type="text"></td>
+                    <td id="filter_button" onclick="filter()"><img src="../images/filter.jpg" alt=""></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="main">
+            <div class="title">Image Details</div>
+            <div class="choice">
+                Scenery
+            </div>
+            <div class="choice">
+                City
+            </div>
+            <div class="choice">
+                People
+            </div>
+            <div class="choice">
+                Animal
+            </div>
+            <div class="choice">
+                Building
+            </div>
+            <div class="choice_last">
+                Wonder
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="title">Hot country</div>
+            <div class="choice">
+                China
+            </div>
+            <div class="choice">
+                Italy
+            </div>
+            <div class="choice">
+                Japan
+            </div>
+            <div class="choice_last">
+                America
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="title">Hot City</div>
+            <div class="choice">
+                Shanghai
+            </div>
+            <div class="choice">
+                Tokyo
+            </div>
+            <div class="choice">
+                Roma
+            </div>
+            <div class="choice">
+                New York
+            </div>
+            <div class="choice_last">
+                Kunming
+            </div>
+        </div>
+    </div>
+
+    <div id="right">
+        <div class="main">
+            <div class="title">Filter</div>
+            <div class="filter_details">
+                <select name="Filter_by_content" id="Filter_by_content">
+                    <option value="content" selected>Filter_by_content</option>
+                    <option value="Scenery">Scenery</option>
+                    <option value="City">City</option>
+                    <option value="People">People</option>
+                    <option value="Animal">Animal</option>
+                    <option value="Building">Building</option>
+                    <option value="Wonder"> Wonder</option></select>
+
+                <select name="Filter_by_country" id="Filter_by_country" onchange="move()">
+                    <option value="City" selected>Filter_by_country</option>
+                    <option value="China">China</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="America">America</option>
+                    <option value="others">others</option>
+                </select>
+                <select name="Filter_by_city" id="Filter_by_city" disabled>
+                    <option value="" selected>choose country first</option>
+                </select>
+                <button onclick="filter()">Filter</button>
+            </div>
+            <div id="filter_result">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                        <td>
+                            <a href="details.html"><img class="filter_result" src="../travel-images/normal/medium/pic (1).jpg" alt=""></a>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div id="page_number">
+                <span>《</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>》</span>
+            </div>
+            <script lang="javascript ">
+                var a = document.getElementsByTagName("span");
+                for (var i = 0; i < a.length; i++) {
+                    a[i].setAttribute("onclick", "alert('imperfect system')");
+                }
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        Copyright&#169;19302010004 黄呈松
+    </footer>
+</body>
+<script src="../js/Browse.js">
+</script>
+
+</html>

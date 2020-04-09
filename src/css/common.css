@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+button,
+input {
+    outline: none;
+}
+
+#main {
+    min-height: 100%;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+footer {
+    height: 80px;
+    margin-bottom: -80px;
+}
+
+input,
+textarea {
+    outline: none;
+}

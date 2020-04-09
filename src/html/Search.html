@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/favor_myphoto_search.css">
+    <script src="../js/disabled_change.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul id="nav">
+            <li id="logo">
+                <a href="./HomePage.html"><img src="../images/logo_nav.png"></a>
+            </li>
+            <li><a href="./HomePage.html">Home</a></li>
+            <li><a href="./Browse.html">Browse</a></li>
+            <li class="this"><a href="./Search.html">Search</a></li>
+            <li id="account">My&nbsp; Account&nbsp;
+                <br>
+                <ul id=dropdown>
+                    <li>
+                        <a href="Upload.html"><img src="../images/upload.png" alt="">Upload</a>
+                    </li>
+                    <li>
+                        <a href="my_photo.html"><img src="../images/photo.png" alt="">My photo</a>
+                    </li>
+                    <li>
+                        <a href="favor.html"><img src="../images/favourite.png" alt="">My favorite</a>
+                    </li>
+                    <li>
+                        <a href="../../index.html"><img src="../images/login.png" alt="">Log in</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="title">Search</div>
+        <form action="alery('imperfect system')">
+            <input type="radio" name="filter_way" id="by_title" onclick="disabled_change_a()">Filter by Title <br>
+            <input id="title" type="text" disabled><br>
+
+            <input type="radio" name="filter_way" id="by_description" onclick="disabled_change_b()">Filter by Description <br>
+            <textarea name="Description" id="desc" cols="30" rows="3" disabled></textarea><br>
+            <input type="submit" value="Filter">
+        </form>
+    </div>
+    <div class="main ">
+        <div class="title ">Result</div>
+        <ul>
+            <li class="pic ">
+                <img src="../images/showimages/1.jpg " class="pic_pic " alt=" ">
+                <div class="pic_text ">
+                    <h2>
+                        title
+                    </h2>
+                    <br>
+                    <p class="text ">
+                        Welcome to the Fundamentals of Web Development. This textbook is intended to cover the broad range of topics required for modem web development and is suitable for intermediate to upper—level computing students. A significant pefcent— age of the material
+                        in this book has also been used by the authors to teach web development principles to first—year computing students and to non—computing students as well.</p>
+                    <br>
+                </div>
+            </li>
+            <li class="pic ">
+                <img src="../images/showimages/1.jpg " class="pic_pic " alt=" ">
+
+
+                <div class="pic_text ">
+                    <h2>
+                        title
+                    </h2>
+                    <br>
+                    <p class="text ">
+                        Welcome to the Fundamentals of Web Development. This textbook is intended to cover the broad range of topics required for modem web development and is suitable for intermediate to upper—level computing students. A significant pefcent— age of the material
+                        in this book has also been used by the authors to teach web development principles to first—year computing students and to non—computing students as well.</p>
+                    <br>
+                </div>
+
+            </li>
+            <li class="pic ">
+                <img src="../images/showimages/1.jpg " class="pic_pic " alt=" ">
+
+
+                <div class="pic_text ">
+                    <h2>
+                        title
+                    </h2>
+                    <br>
+                    <p class="text ">
+                        Welcome to the Fundamentals of Web Development. This textbook is intended to cover the broad range of topics required for modem web development and is suitable for intermediate to upper—level computing students. A significant pefcent— age of the material
+                        in this book has also been used by the authors to teach web development principles to first—year computing students and to non—computing students as well.</p>
+                    <br>
+                </div>
+
+            </li>
+            <li class="pic ">
+                <img src="../images/showimages/1.jpg " class="pic_pic " alt=" ">
+
+
+                <div class="pic_text ">
+                    <h2>
+                        title
+                    </h2>
+                    <br>
+                    <p class="text ">
+                        Welcome to the Fundamentals of Web Development. This textbook is intended to cover the broad range of topics required for modem web development and is suitable for intermediate to upper—level computing students. A significant pefcent— age of the material
+                        in this book has also been used by the authors to teach web development principles to first—year computing students and to non—computing students as well.</p>
+                    <br>
+                </div>
+
+            </li>
+        </ul>
+
+
+        <div id="page_number">
+            <span>《</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>》</span>
+        </div>
+        <script lang="javascript ">
+            var a = document.getElementsByTagName("span");
+            for (var i = 0; i < a.length; i++) {
+                a[i].setAttribute("onclick", "alert('imperfect system')");
+            }
+        </script>
+
+    </div>
+
+    <footer>
+        Copyright&#169;19302010004 黄呈松
+    </footer>
+</body>
+
+
+</html>

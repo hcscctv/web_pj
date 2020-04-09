@@ -1,0 +1,85 @@
+nav {
+    background-color: black;
+    width: 100%;
+    height: 1.5em;
+    font-size: 1.5em;
+    z-index: 1000000;
+}
+
+nav img {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+nav li:hover {
+    background-color: dimgray;
+}
+
+nav li.this {
+    background-color: #222222;
+}
+
+nav li {
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    margin-top: 0px;
+    height: 1.5em;
+    text-align: center;
+}
+
+nav li#logo {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav #account {
+    float: right;
+    padding-right: 30px;
+    clear: right;
+}
+
+#account:hover {
+    float: right;
+}
+
+#account:hover #dropdown {
+    position: absolute;
+    display: block;
+    margin-right: 0px;
+    z-index: 1000;
+    float: right;
+}
+
+nav ul#dropdown {
+    border: 1px grey solid;
+    border-radius: 10px;
+    display: none;
+}
+
+nav ul#dropdown li {
+    border-radius: 10px;
+    border: 1px grey solid;
+    display: block;
+    color: black;
+    background-color: white;
+    float: none;
+    text-align: left;
+    font-size: 12px;
+}
+
+nav ul#dropdown li:hover {
+    background-color: rgb(99, 126, 243);
+    color: white;
+}
+
+nav ul#dropdown img {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+#dropdown a {
+    color: black;
+}
