@@ -66,10 +66,10 @@ nav ul#dropdown li {
     border-radius: 10px;
     display: block;
     color: black;
-    background-color: white;
     float: none;
     text-align: left;
     font-size: 16px;
+    background-color: white;
     transition: .8s;
 }
 
@@ -77,6 +77,10 @@ nav ul#dropdown li:hover {
     background-color: rgba(125, 147, 243, 0.342);
     border: 1px grey solid;
     font-weight: bolder;
+    color: white;
+}
+
+nav ul#dropdown li:hover a {
     color: white;
 }
 
@@ -88,4 +92,5 @@ nav ul#dropdown img {
 
 #dropdown a {
     color: black;
+    transition: .8s;
 }

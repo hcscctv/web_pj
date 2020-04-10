@@ -25,7 +25,7 @@
 }
 
 #file0 {
-    text-align: center !important;
+    text-align: center;
     width: 100%;
     text-align: center;
     background-image: linear-gradient(#6CC967, #5BA14E);
@@ -33,6 +33,11 @@
     border-radius: 3px;
     height: 45px;
     color: white;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+#file0:hover {
+    background-image: linear-gradient(#5BA14E, #6CC967);
 }
 
 img[src=""],
@@ -53,11 +58,16 @@ img:not([src]) {
     width: 100%;
     text-align: center;
     background-image: linear-gradient(#6CC967, #5BA14E);
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.15);
     border: 1px #4B8F4B solid;
     border-radius: 3px;
     height: 50px;
     font-size: 20px;
     color: white;
+}
+
+.fileinput-button button:hover {
+    background-image: linear-gradient(#5BA14E, #6CC967);
 }
 
 .fileinput-button input {
@@ -99,10 +109,15 @@ form button {
     font-size: 25px;
     text-align: center;
     background-image: linear-gradient(#6CC967, #5BA14E);
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.15);
     border: 1px #4B8F4B solid;
     border-radius: 3px;
     height: 40px;
     color: white;
     margin-left: 5%;
     margin-top: 20px;
+}
+
+form button:hover {
+    background-image: linear-gradient(#5BA14E, #6CC967);
 }
