@@ -5,6 +5,7 @@
 
 #main {
     margin: 30px;
+    margin-top: 40px;
     border-radius: 3px;
     border: 1px #DADADB solid;
 }
@@ -18,8 +19,8 @@
     border: 1px #DADADA solid;
     border-radius: 3px;
     color: #7D868A;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 35px;
 }
 
 h2 {
@@ -49,7 +50,7 @@ h2 span {
 }
 
 .half img {
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-top: 40px;
 }
@@ -57,6 +58,7 @@ h2 span {
 #like_number {
     color: #C93F3B;
     font-size: 30px;
+    line-height: 50px;
     text-align: center;
     font-weight: bolder;
 }
@@ -64,7 +66,8 @@ h2 span {
 .detail {
     text-indent: 2ex;
     color: #010103;
-    line-height: 30px;
+    line-height: 40px;
+    font-size: 24px;
     border: 1px #D7D7D9 solid;
     border-radius: 3px;
     width: 100%;
@@ -75,7 +78,8 @@ h2 span {
 .detail_last {
     text-indent: 2ex;
     color: #010103;
-    line-height: 30px;
+    line-height: 40px;
+    font-size: 24px;
     border: 1px #D7D7D9 solid;
     border-radius: 3px;
     width: 100%;
@@ -104,11 +108,113 @@ h2 span {
     height: 40px;
 }
 
+@media (min-width: 767px) {
+    #like_number {
+        color: #C93F3B;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .detail {
+        text-indent: 2ex;
+        color: #010103;
+        line-height: 40px;
+        font-size: 24px;
+        border: 1px #D7D7D9 solid;
+        border-radius: 3px;
+        width: 100%;
+        margin-left: -1px;
+        border-top: 0px;
+    }
+    .detail_last {
+        text-indent: 2ex;
+        color: #010103;
+        line-height: 40px;
+        font-size: 24px;
+        border: 1px #D7D7D9 solid;
+        border-radius: 3px;
+        width: 100%;
+        margin-left: -1px;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+    #collect_img {
+        height: 1em;
+        width: 1em;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    #collect {
+        margin: 0 auto;
+        background-color: #D2392B;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        border: 1px #BA4337 solid;
+        border-radius: 3px;
+        width: 70%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #like_number {
+        color: #C93F3B;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .detail {
+        text-indent: 2ex;
+        color: #010103;
+        line-height: 25px;
+        font-size: 12px;
+        border: 1px #D7D7D9 solid;
+        border-radius: 3px;
+        width: 100%;
+        margin-left: -1px;
+        border-top: 0px;
+    }
+    .detail_last {
+        text-indent: 2ex;
+        color: #010103;
+        line-height: 25px;
+        font-size: 12px;
+        border: 1px #D7D7D9 solid;
+        border-radius: 3px;
+        width: 100%;
+        margin-left: -1px;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+    #collect_img {
+        height: 1em;
+        width: 1em;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    #collect {
+        margin: 0 auto;
+        background-color: #D2392B;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        border: 1px #BA4337 solid;
+        border-radius: 3px;
+        width: 70%;
+        height: 40px;
+    }
+}
+
 #text {
     margin: auto;
     color: #000000;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 30px;
     width: 70%;
     display: block;
 }

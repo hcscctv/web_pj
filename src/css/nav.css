@@ -1,6 +1,7 @@
 nav {
     background-color: black;
     width: 100%;
+    min-width: 600px;
     height: 1.5em;
     font-size: 1.5em;
     z-index: 1000000;
@@ -82,6 +83,10 @@ nav ul#dropdown li:hover {
 
 nav ul#dropdown li:hover a {
     color: white;
+}
+
+nav ul#dropdown li:hover img {
+    filter: invert(100%);
 }
 
 nav ul#dropdown img {
