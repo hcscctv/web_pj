@@ -6,44 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="src/css/common.css">
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/login.css">
 </head>
 
 <body>
-    <div id="main">
-        <img src="src/images/logo.png" class="logo">
-        <br>
-        <h1>Sign in for Fisher</h1>
-        <br>
-        <form action="src/html/HomePage.html" target="_self">
-            <table>
-                <tr>
-                    <td>
-                        <h6>Username/Email:</h6>
-                        <input type="text">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <h6>Password</h6>
-                        <input type="password">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="button" type="submit" value="Sign up"></td>
-                </tr>
-            </table>
+    <div class="box">
+        <h2>Login</h2>
+        <form action="">
+            <div class="inputbox">
+                <input type="text" name="" required="">
+                <label>Username</label>
+            </div>
+            <div class="inputbox">
+                <input type="password" name="" required="">
+                <label>Password</label>
+            </div>
+            <input type="button" value="submit" onclick="window.location.href='src/html/Homepage.html'">
+            <input type="button" value="register" id="button2" onclick="window.location.href='src/html/register.html'">
         </form>
-        <br>
-        <div class="center">
-            New to Fisher?<a href="src/html/register.html">Create a new account?</a>
-        </div>
     </div>
-    <footer>
-        Copyright&#169;19302010004 黄呈松
-    </footer>
 </body>
 
 </html>
