@@ -3,10 +3,13 @@
     src: url('../font/5.ttf');
 }
 
+
+/* 自定义字体 */
+
 #main {
     margin: 30px;
     margin-top: 40px;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px #DADADB solid;
 }
 
@@ -17,7 +20,7 @@
     width: 100%;
     background: #F5F4F9;
     border: 1px #DADADA solid;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #7D868A;
     font-size: 20px;
     line-height: 35px;
@@ -41,6 +44,7 @@ h2 span {
     width: 80%;
     margin: 0 auto;
     height: 35vw;
+    /*响应式布局方法 */
 }
 
 .half {
@@ -85,6 +89,7 @@ h2 span {
     width: 100%;
     margin-left: -1px;
     border-top: 0px;
+    /* 防止边框重叠 */
     border-bottom: 0px;
 }
 
@@ -107,6 +112,9 @@ h2 span {
     width: 70%;
     height: 40px;
 }
+
+
+/* 比较宽时css */
 
 @media (min-width: 767px) {
     #like_number {
@@ -133,7 +141,7 @@ h2 span {
         line-height: 40px;
         font-size: 24px;
         border: 1px #D7D7D9 solid;
-        border-radius: 3px;
+        border-radius: 5px;
         width: 100%;
         margin-left: -1px;
         border-top: 0px;
@@ -158,6 +166,9 @@ h2 span {
         height: 40px;
     }
 }
+
+
+/* 比较窄时css */
 
 @media (max-width: 768px) {
     #like_number {

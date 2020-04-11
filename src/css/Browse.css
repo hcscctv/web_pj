@@ -2,6 +2,7 @@
     width: 300px;
     height: 100%;
     position: fixed;
+    /* 固定于左边 */
 }
 
 #right {
@@ -12,7 +13,8 @@
 
 .main {
     margin: 30px;
-    border-radius: 3px;
+    border-radius: 5px;
+    /* 圆角 */
     border: 1px #DADADB solid;
 }
 
@@ -23,10 +25,11 @@
     width: 100%;
     background: #F5F4F9;
     border: 1px #DADADA solid;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #7D868A;
     font-size: 16px;
     line-height: 30px;
+    /*行高*/
 }
 
 input[type="text"] {
@@ -71,10 +74,11 @@ input[type="text"] {
 .choice,
 .filter_details {
     text-indent: 2ex;
+    /* 开头空两格 */
     color: #010103;
     line-height: 30px;
     border: 1px #D7D7D9 solid;
-    border-radius: 3px;
+    border-radius: 5x;
     width: 100%;
     margin-left: -1px;
     border-top: 0px;
@@ -100,13 +104,13 @@ select {
     padding: 0.2em 0.4em 0.2em 0.4em;
     vertical-align: middle;
     border: 1px solid #e9e9e9;
-    -moz-border-radius: 0.2em;
-    -webkit-border-radius: 0.2em;
+    border-radius: 0.2em;
     border-radius: 0.2em;
     box-shadow: inset 0 0 3px #a0a0a0;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    /* 不像select */
     font-size: 1.2em;
     color: #000099;
     cursor: pointer;
@@ -138,13 +142,17 @@ button {
     width: 10em;
     text-align: center;
     background-image: linear-gradient(#6CC967, #5BA14E);
+    /* 上到下渐变 */
     border: 1px #4B8F4B solid;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 2em;
     font-size: 1.2em;
     color: white;
     box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.15);
 }
+
+
+/* 悬浮效果 */
 
 button:hover {
     background-image: linear-gradient(#5BA14E, #6CC967);
@@ -159,6 +167,7 @@ td img {
     width: 75%;
     height: 10vw;
     object-fit: cover;
+    /* 图片自动裁减 */
     padding: 5px;
 }
 
@@ -168,4 +177,5 @@ td img {
     line-height: 20px;
     text-align: center;
     cursor: context-menu;
+    /* 鼠标样式 */
 }

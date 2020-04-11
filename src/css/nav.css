@@ -51,6 +51,7 @@ nav #account {
     margin-top: 10px;
     position: absolute;
     display: block;
+    /* 下拉显示 */
     margin-right: 0px;
     z-index: 1000;
     float: right;
@@ -61,6 +62,7 @@ nav ul#dropdown {
     border: 1px grey solid;
     border-radius: 10px;
     display: none;
+    /* 平时隐藏 */
 }
 
 nav ul#dropdown li {
@@ -87,6 +89,7 @@ nav ul#dropdown li:hover a {
 
 nav ul#dropdown li:hover img {
     filter: invert(100%);
+    /* 反色 */
 }
 
 nav ul#dropdown img {

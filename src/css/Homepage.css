@@ -47,6 +47,7 @@
 .float_button {
     z-index: 99;
     position: fixed;
+    /* 保持在右下角 */
     bottom: 40px;
     right: 40px;
     width: 40px;
