@@ -50,6 +50,7 @@ h2 {
     transition: 0.5s;
 }
 
+.box .inputbox input:valid~label,
 .box .inputbox input:focus~label {
     top: -18px;
     left: 0;
