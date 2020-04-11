@@ -5,6 +5,8 @@ document.getElementById("file0").onchange = function() {
     document.getElementById("button").innerHTML = "重新上传"
 };
 
+
+// 兼容不同浏览器
 function getObjectURL(file) {
     var url = null;
     if (window.createObjectURL != undefined) {

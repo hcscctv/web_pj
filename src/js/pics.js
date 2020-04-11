@@ -1,3 +1,5 @@
+// 没用到的js
+
 function getStyle(obj, st) {
     if (window.getComputedStyle) {
         return getComputedStyle(obj, null)[st];

@@ -22,6 +22,7 @@ function move() {
         s2.disabled = true;
     }
     s2.length = 0;
+    // 添加选项
     for (var i = 0; i < add.length; i++) {
         var ss = new Option();
         ss.text = add[i];

@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+    <!-- 导航栏 -->
     <nav>
         <ul id="nav">
             <li id="logo">
@@ -22,6 +24,7 @@
             <li><a href="./Search.html">Search</a></li>
             <li id="account">My&nbsp; Account&nbsp;
                 <br>
+                <!-- 下拉菜单 -->
                 <ul id=dropdown>
                     <li>
                         <a href="Upload.html"><img src="../images/upload.png" alt="">Upload</a>
@@ -39,7 +42,7 @@
             </li>
         </ul>
     </nav>
-
+    <!-- 左边搜索栏 -->
     <div id="left">
         <div class="main">
             <div class="title">Search by title</div>
@@ -205,6 +208,7 @@
                 <span>5</span>
                 <span>》</span>
             </div>
+            <!-- 给所有页码添加onclick事件 -->
             <script lang="javascript">
                 var a = document.getElementsByTagName("span");
                 for (var i = 0; i < a.length; i++) {
