@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(../../img/travel-images/normal/medium/pic\ \(14\).jpg);
+    background-image: url(../../img/travel-images/normal/medium/pic\ \(14\).jpg);
     background-size: cover;
 }
 
