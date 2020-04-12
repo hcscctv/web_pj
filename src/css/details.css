@@ -6,14 +6,14 @@
 
 /* 自定义字体 */
 
-#main {
+.main {
     margin: 30px;
     margin-top: 40px;
     border-radius: 5px;
     border: 1px #DADADB solid;
 }
 
-#title {
+.title {
     text-indent: 2ex;
     margin-left: -1px;
     margin-top: -1px;
