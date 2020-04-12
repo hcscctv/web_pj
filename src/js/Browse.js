@@ -43,6 +43,6 @@ for (var i = 0; i < choices_2.length; i++) {
 
 function filter() {
     for (var i = 0; i < pics.length; i++) {
-        pics[i].setAttribute("src", "../travel-images/normal/medium/pic (" + Math.floor(2 + Math.random() * 70) + ").jpg")
+        pics[i].setAttribute("src", "../../img/travel-images/normal/medium/pic (" + Math.floor(2 + Math.random() * 70) + ").jpg")
     }
 }
